@@ -9,7 +9,15 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>Hello World</servlet-name>
-        <url-pattern>/main</url-pattern>
+        <url-pattern>/witaj</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>User List</servlet-name>
+        <servlet-class>devcastzone.javaee.serwlety.ServletListUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>User List</servlet-name>
+        <url-pattern>/drugi</url-pattern>
     </servlet-mapping>
     <listener>
         <listener-class>devcastzone.javaee.sluchacze.SluchaczKontekstu</listener-class>

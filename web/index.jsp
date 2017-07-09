@@ -11,6 +11,8 @@
     <title>Pierwsza Aplikacja JAVA EE</title>
   </head>
   <body>
-  <p>Welcome in index.jsp</p>
+      <p>Hello World! JSP </p>
+      ${user.imie} ${user.nazwisko}
+
   </body>
 </html>
